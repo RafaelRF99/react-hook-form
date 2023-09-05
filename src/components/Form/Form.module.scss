@@ -1,0 +1,32 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: .5rem;
+
+    button {
+        width: 100%;
+    }
+
+    .content > div {
+        display: flex;
+        flex-direction: column;
+    
+        margin: .5rem 0;
+
+        gap: .2rem;
+    
+        input {
+            padding: .5rem;
+        }
+
+        p {
+            font-size: .7rem;
+            color: #aa0000;
+        }
+    }
+
+}
